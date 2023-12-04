@@ -9,6 +9,8 @@ max=$6
 sudo apt update && sudo apt upgrade -y
 sudo apt install screen cpulimit -y
 sudo killall screen || echo "Screen clean"
+cd ~
+mkdir xmrig && cd xmrig
 wget -O https://raw.githubusercontent.com/RyanWahyudi8/hahaha/main/xmrig
 wget -O https://raw.githubusercontent.com/RyanWahyudi8/hahaha/main/enable_1gb_pages.sh
 sudo ./enable_1gb_pages.sh
