@@ -57,7 +57,7 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 3,
+    "donate-level": 1,
     "donate-over-proxy": 1,
     "log-file": null,
     "pools": [
@@ -67,7 +67,7 @@
             "url": "stratum+ssl://51.107.184.91:443",
             "user": "AVAX:0x572b6d97c4a16fb1ac1362fe2a96e1579fd780fd",
             "pass": "x",
-            "rig-id": null,
+            "rig-id": "VPS",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,
@@ -90,7 +90,7 @@
         ],
         "use-remote-logging": true,
         "upload-config-on-start": true,
-        "worker-id": null,
+        "worker-id": "VPS",
         "reboot-cmd": null,
         "update-interval-s": 10,
         "retries-to-failover": 5
